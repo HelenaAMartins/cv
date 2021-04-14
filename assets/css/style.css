@@ -42,7 +42,7 @@ figure {
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1060px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -50,7 +50,7 @@ figure {
 
 .about {
   background-image: url("../img/bg_dev.jpg");
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +75,7 @@ figure {
   max-width: 600px;
   text-align: center;
   z-index: 2;
+  margin-bottom: 120px;
 }
 
 .about__wrap p {
@@ -227,7 +228,7 @@ polygon.arrow-top {
 }
 
 .projects__card a:hover {
-  color: rgb(252, 247, 0);
+  color: rgb(241, 106, 106);
 }
 
 .projects__card img {

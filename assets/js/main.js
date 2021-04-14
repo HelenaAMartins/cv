@@ -37,7 +37,7 @@ $(document).on('ready', function() {
 
 function changeLang(language) {
   const ptBR = {
-    frase: "Olá! Meu nome é Helena Martins, sou uma desenvolvedora frontend junior brasileira. No momento, façocursos na Alura, na Faculdade iv2, além de outros, para desenvolver minhas habilidades. Minhas habilidades proncipais são HTML5, CSS3 e Javascript. Também sou fluente em inglês.",
+    frase: "Olá! Meu nome é Helena Martins, sou uma desenvolvedora frontend junior brasileira. No momento, faço cursos na Alura, na Faculdade iv2, além de outros, para desenvolver minhas habilidades. Minhas habilidades proncipais são HTML5, CSS3 e Javascript. Também sou fluente em inglês.",
     titleProjects: "Portfólio",
     titleCertificates: "Certificados & Cursos"
   }

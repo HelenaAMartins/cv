@@ -43,7 +43,7 @@ function changeLang(language) {
 
   const eng = {
     frase:
-      "Hello! My name's Helena Martins, and I'm a Brazilian front-end developer junior. I am taking couses from Alura, Faculdade iv2 and other institutions in order to develop my skills. My main skills are HTML5, CSS3 and Javascript. I'm also a fluent English speaker.",
+      "Hello! My name's Helena Martins, and I'm a Brazilian front-end developer junior. I am taking couses at Alura, Faculdade iv2 and other institutions in order to develop my skills. My main skills are HTML5, CSS3 and Javascript. I'm also a fluent English speaker.",
     titleProjects: "Portfolio",
     titleCertificates: "Certificates & Courses",
     progress: "In progress",

@@ -145,6 +145,7 @@ polygon.arrow-top {
   position: absolute;
   top: 20px;
   right: 20px;
+  z-index: 4;
 }
 
 .languages__btn {

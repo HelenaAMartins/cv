@@ -28,10 +28,14 @@
   <body>
     <main>
       <section class="about">
-        <!-- <div class="langs">
-          <button id="en">Eng</button>
-          <button id="pt">PT-BR</button>
-        </div> -->
+        <div class="langs">
+          <button class="languages__btn" onclick="changeLang('en')" id="en">
+            Eng
+          </button>
+          <button class="languages__btn" onclick="changeLang('pt')" id="pt">
+            PT-BR
+          </button>
+        </div>
         <div class="about__wrap">
           <div class="about__photo">
             <img src="./assets/img/me.PNG" alt="" />
@@ -158,7 +162,7 @@
 
       <section id="portfolio" class="projects">
         <div class="container">
-          <h2 class="projects__title">Portfolio</h2>
+          <h2 id="portfolioTitle" class="projects__title">Portfolio</h2>
           <div class="projects__wrap">
             <div class="projects__card">
               <figure>
@@ -217,7 +221,7 @@
 
       <section class="certificates">
         <div class="container">
-          <h2 class="certificates__title">Courses & Certificates</h2>
+          <h2 id="cec" class="certificates__title">Courses & Certificates</h2>
           <div class="certificates__wrap">
             <div class="certificates__card">
               <figure>
